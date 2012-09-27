@@ -20,8 +20,9 @@ EPCarousel.prototype = {
         var carousel = this;
 
         carousel.div.html(
-            "<div class='epc_papers_container span8'><div class='epc_papers'></div></div>"+
-            "<div class='epc_titlelist span4'></div>"+
+            "<div class='span8'><div class='epc_papers_container'><div class='epc_papers'></div></div></div>"+
+            "<div class='span4'><div class='epc_titlelist'></div></div>"+
+	    "<div class='clearfix'></div>"+
             ""
         );
         carousel.papersdiv = carousel.div.find(".epc_papers");
