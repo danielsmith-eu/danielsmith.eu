@@ -4,10 +4,43 @@
    Author's custom styles
    ========================================================================== */
 
-body {
-	background-image: url("../img/hexabump.png");
-	color: white;
+.aboutdan h1, h2, h3, h4, h5, h6 {
+	font-family: "FuturaBoldRegular","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
+.aboutdan h1 {
+	text-transform: uppercase;
+	color: black;
+}
+
+.aboutdan h2 {
+	color: #3F3F3F;
+}
+
+.aboutdan h3, h4, h5, h6 {
+	color: #5F5F5F;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	background-image: url("../img/hexellence.png");
+	color: black;
+	padding: 0px;
+	height: 100%;
+}
+
+.container {
+	background-color: white;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	min-height: 100%;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	padding: 10px;
+}
+
 
 #eprints_carousel {
     font-family: "Palatino","Palatino Linotype","URW Palladio L","Garamond",sans-serif;
@@ -37,7 +70,7 @@ body {
     position: relative;
     display: block;
     height: 100%;
-    padding: 0px;
+    padding: 5px;
     margin: 0px;
 }
 .epc_titlelist {
@@ -76,6 +109,7 @@ body {
 .epc_title {
     font-size: 175%;
     margin-bottom: 5px;
+    line-height: 110%;
 }
 .epc_authors {
     font-style: italic;

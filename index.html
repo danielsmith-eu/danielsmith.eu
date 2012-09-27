@@ -18,6 +18,7 @@
             }
         </style>
         <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+	<link rel="stylesheet" href="fonts/stylesheet.css">
         <link rel="stylesheet" href="css/main.css">
 
         <script src="js/vendor/modernizr-2.6.1-respond-1.1.0.min.js"></script>
@@ -30,13 +31,14 @@
         <!-- This code is taken from http://twitter.github.com/bootstrap/examples/hero.html -->
 
         <div class="container">
-
             <!-- Main hero unit for a primary marketing message or call to action -->
-		<div class="row">
-			<div class="span4">
-				<img src="img/danielsmith.jpg" class="span4" alt="Daniel Alexander Smith" title="Daniel Alexander Smith" />
+		<div class="row aboutdan">
+			<div class="span3">
+				<div class="thumbnail">
+				<img src="img/danielsmith.jpg" alt="Daniel Alexander Smith" title="Daniel Alexander Smith" />
+				</div>
 			</div>
-			<div class="span8">
+			<div class="span9">
 				<div style="padding: 10px;">
 					<h1>Dr. Daniel Alexander Smith</h1>
 					<h2>Research Fellow</h2>
@@ -48,11 +50,14 @@
 
 		<hr />
 
-		<div class="tabbable">
-		  <ul class="nav nav-tabs">
+		<div class="navbar">
+		  <div class="navbar-inner">
+		  <ul class="nav">
 		    <li><a href="#tab1" data-toggle="tab">Biography</a></li>
 		    <li class="active"><a href="#tab2" data-toggle="tab">Publications</a></li>
 		  </ul>
+		  </div>
+		</div>
 		  <div class="tab-content">
 		    <div class="tab-pane" id="tab1">
 
@@ -81,7 +86,6 @@
 
 		    </div>
 		  </div>
-		</div>	
 
 
             <footer>
