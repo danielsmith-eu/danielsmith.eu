@@ -4,19 +4,106 @@
    Author's custom styles
    ========================================================================== */
 
+body {
+	background-image: url("../img/hexabump.png");
+	color: white;
+}
 
+#eprints_carousel {
+    font-family: "Palatino","Palatino Linotype","URW Palladio L","Garamond",sans-serif;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    font-family: "Palatino","Palatino Linotype","URW Palladio L","Garamond",sans-serif;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.epc_pdf {
+    float:right;
+}
+.epc_papers_container {
+    overflow: hidden;
+    height: 100%;
+    padding: 0px;
+/*
+    position: relative;
+    display: block;
+    float: left;
+    width: 580px;
+    margin-right: 10px; /* gap between papers and title list */
+*/
+}
+.epc_papers {
+    overflow: hidden;
+    position: relative;
+    display: block;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+.epc_titlelist {
+/*
+    float: left;
+    display: block;
+    width: 340px;
+*/
+    padding: 0px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    height: 100%;
+}
+.epc_papertitle {
+    margin-bottom: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+.epc_papertitle:hover {
+    background-color: #eee;
+    color: black;
+}
+.epc_bgsel {
+    background-color: #eee;
+    color: black;
+}
+.epc_paper {
+    cursor: pointer;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    overflow-y: auto;
+}
+.epc_title {
+    font-size: 175%;
+    margin-bottom: 5px;
+}
+.epc_authors {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+.epc_abstract {
+    text-align: justify;
+}
+.epc_papertitle_title {
+    margin-bottom: 5px;
+}
+.epc_papertitle_authors {
+    font-style: italic;
+    padding-left: 10px;
+    font-size: 85%;
+}
+.epc_papertitle_event {
+    font-size: 90%;
+    padding: 5px;
+}
+.epc_titleyear {
+    background-color: #eee;
+    padding: 5px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: black;
+}
+.epc_event {
+    margin-bottom: 5px;
+    font-weight: bold;
+}

@@ -41,31 +41,47 @@
 					<h1>Dr. Daniel Alexander Smith</h1>
 					<h2>Research Fellow</h2>
 					<h3>Web and Internet Science Research Group</h3>
-					<h3>University of Southampton</h3>
 					<h4>ds@ecs.soton.ac.uk</h4>
 				</div>
 			</div>
 		</div>
 
-<hr />
-            <!-- Example row of columns -->
-            <div class="row">
-                <div class="span4">
-                    <h2>Heading</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a class="btn" href="#">View details &raquo;</a></p>
-                </div>
-                <div class="span4">
-                    <h2>Heading</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                    <p><a class="btn" href="#">View details &raquo;</a></p>
-               </div>
-                <div class="span4">
-                    <h2>Heading</h2>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                    <p><a class="btn" href="#">View details &raquo;</a></p>
-                </div>
-            </div>
+		<hr />
+
+		<div class="tabbable">
+		  <ul class="nav nav-tabs">
+		    <li><a href="#tab1" data-toggle="tab">Biography</a></li>
+		    <li class="active"><a href="#tab2" data-toggle="tab">Publications</a></li>
+		  </ul>
+		  <div class="tab-content">
+		    <div class="tab-pane" id="tab1">
+
+<p>I am a post-doctoral researcher in the <a target="_blank" href="http://www.wais.ecs.soton.ac.uk/">Web and Internet Science research group</a>, <a target="_blank" href="http://www.ecs.soton.ac.uk/">Electronics and Computer Science</a>, <a target="_blank" href="http://www.soton.ac.uk/">University of Southampton</a>.</p>
+
+<p>I am primarily concerned with research into personal information assets, exploration of large heterogeneous data sets, with additional research interests including the <a href="http://www.w3.org/2001/sw/">Semantic Web</a>, scalable distributed and federated querying, multimedia and HCI.</p>
+
+<p>I have been creating Semantic Web data exploration interfaces since 2003.</p>
+        
+<p>To my research areas I apply my engineering expertise in scalable exploration of faceted browsing. I have considerable experience in optimising MySQL (using both MyISAM and InnoDB storage engines), optimising SQL queries, database normalisation, denormalisation, and ETL.</p>
+
+<p>I created, and am responsible for the query engine that powers the mSpace faceted browser.</p>
+
+<p>My day to day work involves looking for and looking at datasets, mapping them to ontologies (or creating ontologies for them), marking them up as RDF, and brainstorming with my team about how we might best provide exploratory interfaces to the data, and how other datasets could be pulled in to improve the browsing experience for the users.</p>
+
+<!-- update! added webbox as the primary focii here -->
+
+		    </div>
+		    <div class="tab-pane active" id="tab2">
+
+			<div class="row" id="eprints_carousel">
+				<div class="span12">
+				<p>Loading papers from EPrints server...</p>
+				</div>
+			</div>
+
+		    </div>
+		  </div>
+		</div>	
 
 
             <footer>
@@ -78,10 +94,11 @@
 
         <script src="js/vendor/bootstrap.min.js"></script>
 
+        <script src="js/eprints_carousel.js"></script>
         <script src="js/main.js"></script>
 
         <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+            var _gaq=[['_setAccount','UA-15022066-1'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
