@@ -26,10 +26,11 @@ html {
 }
 
 body {
-	background-image: url("../img/hexellence.png");
+	background-image: url("../img/union-flag.jpg");
+    min-height: 100%;
+    background-size: cover;
 	color: black;
-	padding: 0px;
-	height: 100%;
+	padding-top: 50px;
 }
 
 .container {
